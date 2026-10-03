@@ -399,7 +399,7 @@ function initContactForm() {
 
       feedback.className = 'form-feedback success';
       feedback.innerHTML = `Thank you, <strong>${name}</strong>! Your message regarding <em>${topic}</em> has been prepared. A direct notification has been dispatched to <strong>connect.gautham@live.com</strong>.`;
-      
+
       form.reset();
 
       setTimeout(() => {
@@ -473,3 +473,7 @@ function initScrollSpy() {
   window.addEventListener('scroll', onScroll, { passive: true });
   onScroll();
 }
+
+import { inject } from "@vercel/analytics"
+
+inject()
