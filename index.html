@@ -1,0 +1,1436 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gautham Balasubramanian | Senior Lead AI Engineer</title>
+  <meta name="description"
+    content="Portfolio of Gautham Balasubramanian - Senior Lead AI Engineer with 9+ years experience across AI/ML, NLP, Computer Vision, and LLMs. NUS Master's in Intelligent Systems." />
+  <meta name="keywords"
+    content="AI Engineer, Senior Lead AI Engineer, Machine Learning, LLMs, NLP, Computer Vision, Databricks, Gautham Balasubramanian, Portfolio" />
+
+  <!-- OpenGraph / Social Meta Tags -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Gautham Balasubramanian | Senior Lead AI Engineer" />
+  <meta property="og:description"
+    content="Results-driven Senior Lead AI Engineer with 9+ years delivering production-grade AI platforms, LLM pipelines, and computer vision systems across Singapore & India." />
+  <meta property="og:image" content="/og-preview.png" />
+
+  <!-- Google Fonts Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml"
+    href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='25' fill='%23080c16'/><path d='M30 70 V30 H55 C65 30 65 45 55 45 H30 M45 45 L65 70' stroke='%2300F0FF' stroke-width='8' stroke-linecap='round' stroke-linejoin='round' fill='none'/></svg>" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="./src/style.css" />
+</head>
+
+<body class="bg-dark text-light antialiased selection-accent">
+  <!-- Background Glow & Interactive Mesh -->
+  <div class="ambient-glow glow-top" aria-hidden="true"></div>
+  <div class="ambient-glow glow-middle" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom" aria-hidden="true"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header fixed-top" id="site-header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Gautham Balasubramanian Home">
+        <div class="brand-avatar">
+          <span class="avatar-monogram">GB</span>
+          <span class="status-indicator-dot" title="Available for Leadership & Principal AI roles"></span>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Gautham Balasubramanian</span>
+          <span class="brand-role">Senior Lead AI Engineer</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#flagship" class="nav-link">Systems</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#education" class="nav-link">Credentials</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons -->
+      <div class="nav-actions">
+        <button type="button" class="btn btn-outline btn-sm" id="btn-open-resume" aria-label="View Resume Modal">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+            <polyline points="14 2 14 8 20 8" />
+            <line x1="16" y1="13" x2="8" y2="13" />
+            <line x1="16" y1="17" x2="8" y2="17" />
+            <polyline points="10 9 9 9 8 9" />
+          </svg>
+          <span>CV Preview</span>
+        </button>
+        <a href="#contact" class="btn btn-primary btn-sm">
+          <span>Let's Talk</span>
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+        <button class="mobile-menu-toggle" id="mobile-menu-btn" aria-label="Toggle navigation menu"
+          aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Nav -->
+    <div class="mobile-nav-drawer" id="mobile-drawer" aria-hidden="true">
+      <ul class="mobile-nav-list">
+        <li><a href="#about" class="mobile-link">About & Pillars</a></li>
+        <li><a href="#flagship" class="mobile-link">Flagship Systems</a></li>
+        <li><a href="#experience" class="mobile-link">Experience & Roles</a></li>
+        <li><a href="#skills" class="mobile-link">Skills & MLOps</a></li>
+        <li><a href="#education" class="mobile-link">Education & Papers</a></li>
+        <li><a href="#contact" class="mobile-link">Contact & Timezones</a></li>
+      </ul>
+      <div class="mobile-drawer-footer">
+        <a href="/Gautham_CV.pdf" download class="btn btn-outline btn-full">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+            <polyline points="7 10 12 15 17 10" />
+            <line x1="12" y1="15" x2="12" y2="3" />
+          </svg>
+          <span>Download Gautham CV (PDF)</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" id="hero">
+    <!-- Interactive Neural Network Canvas -->
+    <canvas id="neural-canvas" class="hero-canvas" aria-hidden="true"></canvas>
+
+    <div class="container hero-content">
+      <div class="hero-badge-wrapper">
+        <div class="status-pill animate-pulse-glow">
+          <span class="pulse-indicator"></span>
+          <span class="pill-text">Senior Lead AI Engineer</span>
+        </div>
+        <div class="badge-alumni">
+          <svg class="icon-tiny" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+            <path d="M6 12v5c3 3 9 3 12 0v-5" />
+          </svg>
+          <span>NUS MTech Intelligent Systems</span>
+        </div>
+        <div class="badge-pr">
+          <svg class="icon-tiny pr-leaf-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+              d="M12 2.5l1.2 3.4 2.6-.7-.8 2.7 3.5.7-1.8 2.4 2.1 2.7-3.6.3-.7 3.5-1.5-.7-.3 3.5h-1.4l-.3-3.5-1.5.7-.7-3.5-3.6-.3 2.1-2.7-1.8-2.4 3.5-.7-.8-2.7 2.6.7L12 2.5z" />
+          </svg>
+          <span>Canadian PR</span>
+        </div>
+      </div>
+
+      <h1 class="hero-title">
+        Architecting Production <span class="text-gradient-cyan">AI Platforms</span>,
+        <span class="text-gradient-violet">Multimodal Systems</span> & Enterprise LLMs.
+      </h1>
+
+      <p class="hero-subtitle">
+        Results-driven Senior Lead AI Engineer with a Master's in Artificial Intelligence from the
+        <strong>National University of Singapore (NUS)</strong> and <strong>9+ years</strong> of battle-tested
+        experience
+        across Singapore & India. Specializing in production-grade ML platforms, leading high-impact teams, and
+        translating complex deep learning into quantifiable business value.
+      </p>
+
+      <!-- Call to Actions -->
+      <div class="hero-ctas">
+        <a href="#flagship" class="btn btn-primary btn-lg">
+          <span>Explore Flagship Systems</span>
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <line x1="5" y1="12" x2="19" y2="12" />
+            <polyline points="12 5 19 12 12 19" />
+          </svg>
+        </a>
+        <button type="button" class="btn btn-outline btn-lg" id="hero-resume-btn">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+            <polyline points="14 2 14 8 20 8" />
+            <line x1="12" y1="18" x2="12" y2="12" />
+            <line x1="9" y1="15" x2="15" y2="15" />
+          </svg>
+          <span>View CV</span>
+        </button>
+      </div>
+
+      <!-- Quantified Impact Stats Grid -->
+      <div class="hero-metrics-grid">
+        <div class="metric-card glass-card">
+          <div class="metric-header">
+            <span class="metric-icon-box cyan-box">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <polyline points="12 6 12 12 14 14" />
+              </svg>
+            </span>
+            <span class="metric-tag">Leadership</span>
+          </div>
+          <div class="metric-value text-gradient-cyan">9+ Yrs</div>
+          <div class="metric-label">AI Engineering Experience</div>
+          <div class="metric-caption">Proven leadership across Singapore & India; ex-Staples, GIC & UCARE.AI</div>
+        </div>
+
+        <div class="metric-card glass-card">
+          <div class="metric-header">
+            <span class="metric-icon-box violet-box">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 2 7 12 12 22 7 12 2" />
+                <polyline points="2 17 12 22 22 17" />
+                <polyline points="2 12 12 17 22 12" />
+              </svg>
+            </span>
+            <span class="metric-tag">Production AI</span>
+          </div>
+          <div class="metric-value text-gradient-violet">15+</div>
+          <div class="metric-label">Enterprise Systems Delivered</div>
+          <div class="metric-caption">Battle-tested platforms across LLMs, Multimodal, Computer Vision & MLOps</div>
+        </div>
+
+        <div class="metric-card glass-card">
+          <div class="metric-header">
+            <span class="metric-icon-box emerald-box">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <line x1="2" y1="12" x2="22" y2="12" />
+                <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+              </svg>
+            </span>
+            <span class="metric-tag">Industry Breadth</span>
+          </div>
+          <div class="metric-value text-gradient-emerald">5+</div>
+          <div class="metric-label">Key Industry Verticals</div>
+          <div class="metric-caption">Proven impact in E-Commerce, Healthcare, Sovereign Finance, Banking & Telecom</div>
+        </div>
+
+        <div class="metric-card glass-card">
+          <div class="metric-header">
+            <span class="metric-icon-box amber-box">
+              <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z" />
+              </svg>
+            </span>
+            <span class="metric-tag">Scale & Impact</span>
+          </div>
+          <div class="metric-value text-gradient-amber">Millions+</div>
+          <div class="metric-label">Data Records & Inferences</div>
+          <div class="metric-caption">High-throughput Databricks ETL, low-latency vector retrieval & real-time serving</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About & Technical Pillars Section -->
+  <section class="section-padding" id="about">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-kicker">Core Philosophy & Specialization</span>
+        <h2 class="section-title">Bridging Research Deep Learning with Enterprise Reliability</h2>
+        <p class="section-desc">
+          Building AI models is only 20% of the challenge; delivering resilient distributed platforms that scale under
+          production workloads is the true differentiator.
+        </p>
+      </div>
+
+      <div class="pillars-grid">
+        <!-- Pillar 1 -->
+        <div class="pillar-card glass-card">
+          <div class="pillar-icon-wrap cyan-glow">
+            <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="2" y="2" width="20" height="8" rx="2" ry="2" />
+              <rect x="2" y="14" width="20" height="8" rx="2" ry="2" />
+              <line x1="6" y1="6" x2="6.01" y2="6" />
+              <line x1="6" y1="18" x2="6.01" y2="18" />
+            </svg>
+          </div>
+          <h3 class="pillar-title">Production ML Platforms & MLOps</h3>
+          <p class="pillar-text">
+            Architecting end-to-end distributed inference and training backbones on <strong>Azure Databricks</strong>,
+            Docker, and MLflow. Specializing in hybrid text search, multi-model embedding pipelines, and sub-second
+            batch & stream scoring.
+          </p>
+          <ul class="pillar-tags">
+            <li>Azure Databricks</li>
+            <li>MLflow</li>
+            <li>Docker</li>
+            <li>Vector DBs</li>
+            <li>High-Throughput APIs</li>
+          </ul>
+        </div>
+
+        <!-- Pillar 2 -->
+        <div class="pillar-card glass-card">
+          <div class="pillar-icon-wrap violet-glow">
+            <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path
+                d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" />
+              <polyline points="3.27 6.96 12 12.01 20.73 6.96" />
+              <line x1="12" y1="22.08" x2="12" y2="12" />
+            </svg>
+          </div>
+          <h3 class="pillar-title">Multimodal Embeddings & LLM Rerankers</h3>
+          <p class="pillar-text">
+            Pioneering ensemble architectures pairing vision-language embeddings (<strong>CLIP, MPNET, MARQO-B</strong>)
+            with in-house fine-tuned LLM re-rankers (<strong>QWEN-3</strong>) to conquer ultra-sparse catalog matching
+            and contract cross-referencing.
+          </p>
+          <ul class="pillar-tags">
+            <li>QWEN-3 Fine-Tuning</li>
+            <li>CLIP & MARQO-B</li>
+            <li>MPNET</li>
+            <li>Cross-Attention</li>
+            <li>Ensemble Scoring</li>
+          </ul>
+        </div>
+
+        <!-- Pillar 3 -->
+        <div class="pillar-card glass-card">
+          <div class="pillar-icon-wrap emerald-glow">
+            <svg class="pillar-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z" />
+            </svg>
+          </div>
+          <h3 class="pillar-title">Mission-Critical Vision & Healthcare AI</h3>
+          <p class="pillar-text">
+            Engineered computer vision pipelines for <strong>Orthokeratology</strong> myopia eye scans, automated
+            hospital bill estimation systems with 90% range accuracy, and fraud/overconsumption risk detection
+            algorithms delivering 80% operational efficiency.
+          </p>
+          <ul class="pillar-tags">
+            <li>Medical CV</li>
+            <li>OpenCV & YOLO</li>
+            <li>Straight-Through Claims</li>
+            <li>Hospital Bill AI</li>
+            <li>Transformer Pre-approval</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Flagship Systems & Architecture Showcase -->
+  <section class="section-padding bg-darker" id="flagship">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-kicker">Engineered For Massive Impact</span>
+        <h2 class="section-title">Flagship Systems & Production Architectures</h2>
+        <p class="section-desc">
+          A deep dive into mission-critical systems designed, implemented, and scaled across retail enterprise,
+          sovereign wealth funds, and healthcare conglomerates.
+        </p>
+      </div>
+
+      <!-- Feature System 1: Unified Product Matching Platform -->
+      <div class="system-showcase-box glass-card" id="system-matching">
+        <div class="system-badge-row">
+          <span class="badge-role">Staples India &bull; Azure Databricks</span>
+          <span class="badge-impact">$10M Revenue &bull; $3M EBITDA &bull; +10% RPV</span>
+        </div>
+
+        <div class="system-intro-grid">
+          <div>
+            <h3 class="system-heading">Unified Product Matching & LLM Re-Ranking Platform</h3>
+            <p class="system-summary">
+              Led the end-to-end architecture on <strong>Azure Databricks</strong> to replace a brittle legacy
+              cross-referencing system. The platform performs hybrid search across marketplace listings and internal
+              catalogs, powering assortment intelligence, identifying catalog gaps, and driving Own Brand margin
+              expansion.
+            </p>
+            <div class="system-features-list">
+              <div class="feature-bullet">
+                <span class="bullet-dot cyan"></span>
+                <span><strong>Multi-Modal Ensemble:</strong> Synchronized image and text embeddings using CLIP, MPNET,
+                  and MARQO-B to capture visual nuance alongside rich technical specs.</span>
+              </div>
+              <div class="feature-bullet">
+                <span class="bullet-dot violet"></span>
+                <span><strong>In-House QWEN-3 Fine-Tuned Re-ranker:</strong> Built domain-adapted LLM reranking pipeline
+                  to evaluate borderline matches, eliminating false positives.</span>
+              </div>
+              <div class="feature-bullet">
+                <span class="bullet-dot emerald"></span>
+                <span><strong>Business Metric Lift:</strong> Reduced contract bid turnaround SLA by 0.6 days, unlocked
+                  $3M EBITDA, and projected +10% Revenue Per Visitor (RPV).</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Interactive Pipeline Flow Diagram -->
+          <div class="pipeline-card glass-inner">
+            <div class="pipeline-card-header">
+              <div class="pipeline-title-group">
+                <span class="pipeline-pulse-dot"></span>
+                <span class="pipeline-header-title">Live Architecture Flow Explorer</span>
+              </div>
+              <span class="pipeline-hint">Click any stage to inspect design</span>
+            </div>
+
+            <!-- Pipeline Interactive Nodes -->
+            <div class="pipeline-nodes-wrapper" id="pipeline-nodes">
+              <div class="pipeline-node active" data-stage="ingest">
+                <div class="node-num">01</div>
+                <div class="node-content">
+                  <div class="node-title">Catalog Ingestion</div>
+                  <div class="node-tech">Azure Databricks & Delta Lake</div>
+                </div>
+              </div>
+
+              <div class="pipeline-connector">
+                <svg viewBox="0 0 24 24" class="connector-arrow">
+                  <polyline points="7 10 12 15 17 10" />
+                </svg>
+              </div>
+
+              <div class="pipeline-node" data-stage="hybrid">
+                <div class="node-num">02</div>
+                <div class="node-content">
+                  <div class="node-title">Hybrid Retrieval</div>
+                  <div class="node-tech">BM25 + Semantic Vector Filter</div>
+                </div>
+              </div>
+
+              <div class="pipeline-connector">
+                <svg viewBox="0 0 24 24" class="connector-arrow">
+                  <polyline points="7 10 12 15 17 10" />
+                </svg>
+              </div>
+
+              <div class="pipeline-node" data-stage="ensemble">
+                <div class="node-num">03</div>
+                <div class="node-content">
+                  <div class="node-title">Multimodal Ensemble</div>
+                  <div class="node-tech">CLIP + MPNET + MARQO-B</div>
+                </div>
+              </div>
+
+              <div class="pipeline-connector">
+                <svg viewBox="0 0 24 24" class="connector-arrow">
+                  <polyline points="7 10 12 15 17 10" />
+                </svg>
+              </div>
+
+              <div class="pipeline-node" data-stage="rerank">
+                <div class="node-num">04</div>
+                <div class="node-content">
+                  <div class="node-title">Fine-Tuned LLM Re-Ranker</div>
+                  <div class="node-tech">Domain Adapted QWEN-3</div>
+                </div>
+              </div>
+
+              <div class="pipeline-connector">
+                <svg viewBox="0 0 24 24" class="connector-arrow">
+                  <polyline points="7 10 12 15 17 10" />
+                </svg>
+              </div>
+
+              <div class="pipeline-node" data-stage="delivery">
+                <div class="node-num">05</div>
+                <div class="node-content">
+                  <div class="node-title">Assortment & SLA Engine</div>
+                  <div class="node-tech">Automated Bid Response & RPV Lift</div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Dynamic Detail Inspector Box -->
+            <div class="pipeline-detail-box" id="pipeline-detail-display">
+              <div class="detail-badge" id="detail-stage-tag">Stage 01: Ingestion & Taxonomy Normalization</div>
+              <h4 class="detail-heading" id="detail-stage-title">High-Throughput Catalog Normalization</h4>
+              <p class="detail-description" id="detail-stage-desc">
+                Streaming ingestion pipelines parse millions of marketplace catalog listings, clean unstructured
+                attributes, and perform automated taxonomy classification (accelerating product onboarding speed by up
+                to 40%).
+              </p>
+              <div class="detail-stats" id="detail-stage-stats">
+                <span class="stat-chip">Speed: +40% Onboarding</span>
+                <span class="stat-chip">Azure Databricks</span>
+                <span class="stat-chip">Auto Taxonomy</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Additional Systems Grid -->
+      <div class="systems-subgrid">
+        <!-- System 2: Healthcare AI -->
+        <div class="system-subcard glass-card">
+          <div class="subcard-header">
+            <span class="badge-role">UCARE.AI &bull; Singapore</span>
+            <span class="subcard-metric text-emerald">80% STP &bull; 90% Accuracy</span>
+          </div>
+          <h3 class="subcard-title">Medical Computer Vision & Claims Automation</h3>
+          <p class="subcard-text">
+            Engineered computer vision algorithms for <strong>Orthokeratology</strong> treatment planning using cornea
+            eye scan images with custom equipment data pipelines. Built transformer insurance models delivering
+            <strong>Straight Through Processing (STP)</strong> with 80% efficiency gains and hospital bill estimation
+            deployed across major Singapore healthcare groups.
+          </p>
+          <div class="subcard-tech-chips">
+            <span>PyTorch</span>
+            <span>Computer Vision</span>
+            <span>LangChain</span>
+            <span>Transformers</span>
+            <span>Hospital Systems</span>
+          </div>
+        </div>
+
+        <!-- System 3: Sovereign Wealth Financial NLP -->
+        <div class="system-subcard glass-card">
+          <div class="subcard-header">
+            <span class="badge-role">GIC Singapore &bull; U3 Infotech</span>
+            <span class="subcard-metric text-cyan">50% Faster Decisions</span>
+          </div>
+          <h3 class="subcard-title">LLM Financial Document Extraction</h3>
+          <p class="subcard-text">
+            Consulted for <strong>GIC Singapore</strong> (Government of Singapore Investment Corporation). Built
+            specialized LLM-powered analytics pipelines to automatically parse, structure, and extract critical
+            financial ratios and risks from multi-hundred-page investment filings, expediting investment committee
+            decisions by 50%.
+          </p>
+          <div class="subcard-tech-chips">
+            <span>LLMs</span>
+            <span>RAG</span>
+            <span>Financial NLP</span>
+            <span>Document AI</span>
+            <span>Python</span>
+          </div>
+        </div>
+
+        <!-- System 4: DBS Bank Predictive Ops -->
+        <div class="system-subcard glass-card">
+          <div class="subcard-header">
+            <span class="badge-role">NTT Data &bull; DBS Singapore</span>
+            <span class="subcard-metric text-violet">Automated RCA</span>
+          </div>
+          <h3 class="subcard-title">Core Banking Infrastructure Log Intelligence</h3>
+          <p class="subcard-text">
+            Data Science Consultant for <strong>DBS Singapore</strong>. Designed log parsing, root cause analysis
+            anomaly detection, and automated incident reporting with production REST microservices for 24/7 financial
+            infrastructure uptime.
+          </p>
+          <div class="subcard-tech-chips">
+            <span>Time Series</span>
+            <span>REST APIs</span>
+            <span>Log Mining</span>
+            <span>Python</span>
+            <span>Banking Ops</span>
+          </div>
+        </div>
+
+        <!-- System 5: IEEE Flight Delay Prediction -->
+        <div class="system-subcard glass-card">
+          <div class="subcard-header">
+            <span class="badge-role">TCS &bull; IEEE Conference</span>
+            <span class="subcard-metric text-amber">Published Research</span>
+          </div>
+          <h3 class="subcard-title">Machine Learning Aircraft Delay Modeling</h3>
+          <p class="subcard-text">
+            Researched and deployed predictive modeling surpassing industry accuracy standards for flight schedules and
+            turnaround bottlenecks. Published in <strong>IEEE Conference</strong> proceedings and awarded Best Team in
+            Chennai.
+          </p>
+          <div class="subcard-tech-chips">
+            <span>IEEE Publication</span>
+            <span>Predictive Modeling</span>
+            <span>Feature Engineering</span>
+            <span>Award Winning</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Career Journey & Experience Timeline -->
+  <section class="section-padding bg-darker" id="experience">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-kicker">Professional Track Record</span>
+        <h2 class="section-title">9+ Years Delivering Production AI Across Singapore & India</h2>
+        <p class="section-desc">
+          Progressive leadership spanning multinational tech enterprises, healthcare innovators, and sovereign wealth
+          advisory.
+        </p>
+      </div>
+
+      <div class="timeline-wrapper">
+        <!-- Timeline Item 1: Staples India (Senior Lead) -->
+        <div class="timeline-card glass-card active-role">
+          <div class="timeline-meta">
+            <div class="company-badge-group">
+              <span class="company-name">Staples India</span>
+              <span class="location-tag">Chennai, India</span>
+            </div>
+            <div class="role-dates">
+              <span class="status-badge-current">Current Leadership</span>
+              <span class="date-text">Apr 2026 – Present</span>
+            </div>
+          </div>
+          <h3 class="role-title">Senior Lead AI Engineer <span class="role-sub">&bull; Leading a Team of 5 AI
+              Engineers</span></h3>
+          <ul class="role-bullets">
+            <li>
+              <strong>Alternative Product Recommendation Engine:</strong> Architected recommendation systems for
+              merchandising leveraging internal matching infrastructure, projected to increase <strong>Revenue Per
+                Visitor (RPV) by 10%</strong>.
+            </li>
+            <li>
+              <strong>Assortment Intelligence & Own Brand Growth:</strong> Matched marketplace listings with internal
+              catalog to identify inventory gaps through comparisons with top-selling marketplace items, driving Own
+              Brand listing growth and boosting gross margins.
+            </li>
+            <li>
+              <strong>Automated Taxonomy Classification:</strong> Drove automated web-based item classification for
+              accurate categorization and taxonomy alignment, accelerating product onboarding velocity by <strong>up to
+                40%</strong>.
+            </li>
+            <li>
+              <strong>Team Mentorship & Technical Strategy:</strong> Spearheaded sprint planning, architectural design
+              reviews, MLOps standards, and technical direction for 5 full-time AI engineers.
+            </li>
+          </ul>
+          <div class="timeline-tech-tags">
+            <span>Databricks</span>
+            <span>PyTorch</span>
+            <span>Recommendation Systems</span>
+            <span>LLMs</span>
+            <span>MLOps</span>
+            <span>Team Leadership</span>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2: Staples India (Lead AI Engineer) -->
+        <div class="timeline-card glass-card">
+          <div class="timeline-meta">
+            <div class="company-badge-group">
+              <span class="company-name">Staples India</span>
+              <span class="location-tag">Contract-to-Hire via RandomTrees</span>
+            </div>
+            <div class="role-dates">
+              <span class="date-text">Apr 2025 – Mar 2026</span>
+            </div>
+          </div>
+          <h3 class="role-title">Lead AI Engineer <span class="role-sub">&bull; Unified Product Matching Platform</span>
+          </h3>
+          <ul class="role-bullets">
+            <li>
+              <strong>Unified Matching Platform on Azure Databricks:</strong> Led the design and deployment enabling
+              product matching across multiple enterprise verticals through hybrid text search and an ensemble of vision
+              and language models (<strong>CLIP, MPNET, MARQO-B</strong>).
+            </li>
+            <li>
+              <strong>In-House LLM Re-Ranker:</strong> Built custom domain-specific re-ranker by fine-tuning
+              <strong>QWEN-3</strong>, integrated into the platform's LLM-based reranking pipeline for sub-second
+              high-precision evaluation.
+            </li>
+            <li>
+              <strong>$3M EBITDA & Turnaround SLA Lift:</strong> Replaced a brittle legacy cross-referencing system,
+              improving contract bid SLA by reducing turnaround time by <strong>up to 0.6 days</strong>, generating
+              <strong>$3M in EBITDA</strong>.
+            </li>
+            <li>
+              <strong>$10M Revenue Expansion:</strong> Enhanced match quality and expanded match coverage across complex
+              industrial verticals, projected to generate an additional <strong>$10M in revenue</strong>.
+            </li>
+          </ul>
+          <div class="timeline-tech-tags">
+            <span>Azure Databricks</span>
+            <span>QWEN-3</span>
+            <span>CLIP</span>
+            <span>MPNET</span>
+            <span>MARQO-B</span>
+            <span>Vector Search</span>
+          </div>
+        </div>
+
+        <!-- Timeline Item 3: U3 Infotech / GIC Singapore -->
+        <div class="timeline-card glass-card">
+          <div class="timeline-meta">
+            <div class="company-badge-group">
+              <span class="company-name">U3 Infotech</span>
+              <span class="location-tag">Singapore</span>
+            </div>
+            <div class="role-dates">
+              <span class="date-text">Jan 2024 – Jun 2024 (6-Month Contract)</span>
+            </div>
+          </div>
+          <h3 class="role-title">AI Engineer <span class="role-sub">&bull; AI Consultant for GIC Singapore</span></h3>
+          <ul class="role-bullets">
+            <li>
+              <strong>Financial Document Intelligence:</strong> Developed LLM-powered analytics solutions to extract key
+              metrics, valuation tables, and covenant conditions from hundreds of pages of complex financial filings.
+            </li>
+            <li>
+              <strong>50% Efficiency Improvement:</strong> Accelerated financial report analysis cycles by
+              <strong>50%</strong>, resulting in expedited decision making for investment deal teams.
+            </li>
+          </ul>
+          <div class="timeline-tech-tags">
+            <span>GIC Singapore</span>
+            <span>LLMs</span>
+            <span>Financial Document Extraction</span>
+            <span>Python</span>
+            <span>LangChain</span>
+          </div>
+        </div>
+
+        <!-- Timeline Item 4: UCARE.AI, Singapore -->
+        <div class="timeline-card glass-card">
+          <div class="timeline-meta">
+            <div class="company-badge-group">
+              <span class="company-name">UCARE.AI</span>
+              <span class="location-tag">Singapore</span>
+            </div>
+            <div class="role-dates">
+              <span class="date-text">May 2021 – Dec 2023</span>
+            </div>
+          </div>
+          <h3 class="role-title">AI Scientist <span class="role-sub">&bull; Medical Computer Vision & Healthcare
+              AI</span></h3>
+          <ul class="role-bullets">
+            <li>
+              <strong>Orthokeratology Myopia Treatment CV:</strong> Developed a computer vision model for
+              Orthokeratology treatment planning for Myopia using corneal eye scan images; engineered custom data
+              pipelines for legacy ophthalmology equipment formats.
+            </li>
+            <li>
+              <strong>80% STP Improvement in Insurance Claims:</strong> Developed overconsumption risk detection models
+              enabling Straight Through Processing (STP) with an <strong>80% efficiency improvement</strong>.
+            </li>
+            <li>
+              <strong>70% Faster Insurance Payouts:</strong> Built a transformer-based pre-approval model delivering
+              <strong>70% faster insurance payouts</strong> for policyholders.
+            </li>
+            <li>
+              <strong>Hospital Bill Estimation System:</strong> Built an end-to-end bill estimation system deployed
+              across leading Singapore hospital groups, reducing error from <strong>20% to 13%</strong> and improving
+              range accuracy from <strong>70% to 90%</strong>.
+            </li>
+            <li>
+              <strong>Insurer e-Concierge & RL POCs:</strong> Built a LangChain + OpenAI LLM-based e-concierge for a
+              major SEA insurer. Led POCs across medical image anonymization, hybrid RL-based health article
+              recommendations, GANs, and explainable AI (XAI).
+            </li>
+            <li>
+              <strong>Team Mentoring:</strong> Mentored junior data scientists, conducted code reviews, led sprint
+              planning, and authored reusable packages for automated reporting and dataset collection.
+            </li>
+          </ul>
+          <div class="timeline-tech-tags">
+            <span>Computer Vision</span>
+            <span>OpenCV</span>
+            <span>PyTorch</span>
+            <span>STP Claims</span>
+            <span>Transformers</span>
+            <span>Reinforcement Learning</span>
+          </div>
+        </div>
+
+        <!-- Timeline Item 5: NTT Data / DBS Singapore -->
+        <div class="timeline-card glass-card">
+          <div class="timeline-meta">
+            <div class="company-badge-group">
+              <span class="company-name">NTT Data</span>
+              <span class="location-tag">Singapore</span>
+            </div>
+            <div class="role-dates">
+              <span class="date-text">Sep 2020 – Apr 2021</span>
+            </div>
+          </div>
+          <h3 class="role-title">Senior Consultant <span class="role-sub">&bull; Data Science Consultant for DBS
+              Singapore</span></h3>
+          <ul class="role-bullets">
+            <li>
+              <strong>Infrastructure Log Anomaly Detection:</strong> Built log analysis models for automated predictive
+              infrastructure maintenance and anomaly detection.
+            </li>
+            <li>
+              <strong>Automated RCA & REST APIs:</strong> Built automated report generation pipelines and developed
+              high-reliability REST APIs for internal banking operations.
+            </li>
+          </ul>
+          <div class="timeline-tech-tags">
+            <span>DBS Singapore</span>
+            <span>REST APIs</span>
+            <span>Log Mining</span>
+            <span>Python</span>
+            <span>Enterprise AI</span>
+          </div>
+        </div>
+
+        <!-- Timeline Item 6: Tata Consultancy Services Ltd. -->
+        <div class="timeline-card glass-card">
+          <div class="timeline-meta">
+            <div class="company-badge-group">
+              <span class="company-name">Tata Consultancy Services Ltd. (TCS)</span>
+              <span class="location-tag">Chennai, India</span>
+            </div>
+            <div class="role-dates">
+              <span class="date-text">Nov 2015 – Jun 2019</span>
+            </div>
+          </div>
+          <h3 class="role-title">Systems Engineer <span class="role-sub">&bull; R&I Proofs-of-Concept & Predictive
+              Modeling</span></h3>
+          <ul class="role-bullets">
+            <li>
+              <strong>IEEE-Published Aircraft Delay Prediction:</strong> Developed an aircraft delay prediction model
+              surpassing industry accuracy, published in an <strong>IEEE Conference</strong>.
+            </li>
+            <li>
+              <strong>Telecom Workforce Forecasting:</strong> Built workforce management web application for a telecom
+              client enabling demand forecasting and dynamic resource allocation.
+            </li>
+            <li>
+              <strong>Recognition:</strong> Awarded <strong>Best Team in Chennai</strong> at Tata Consultancy Services
+              Ltd.
+            </li>
+          </ul>
+          <div class="timeline-tech-tags">
+            <span>Machine Learning</span>
+            <span>Time Series</span>
+            <span>IEEE Paper</span>
+            <span>Web Applications</span>
+            <span>Python / Django</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Technical Skills & Technology Matrix -->
+  <section class="section-padding" id="skills">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-kicker">Comprehensive Toolchain</span>
+        <h2 class="section-title">Technical Skills & Technology Matrix</h2>
+        <p class="section-desc">
+          Proficiencies developed over 9+ years across deep learning, distributed data platforms, and production
+          systems.
+        </p>
+      </div>
+
+      <!-- Skill Category Filter Buttons -->
+      <div class="skills-filter-tabs" id="skills-tabs">
+        <button class="filter-tab-btn active" data-category="all">All Skills (30+)</button>
+        <button class="filter-tab-btn" data-category="aiml">AI & Machine Learning</button>
+        <button class="filter-tab-btn" data-category="frameworks">Frameworks & LLMs</button>
+        <button class="filter-tab-btn" data-category="cloud">Data, Cloud & MLOps</button>
+        <button class="filter-tab-btn" data-category="languages">Languages & Backend</button>
+        <button class="filter-tab-btn" data-category="viz">Visualization & Analytics</button>
+      </div>
+
+      <!-- Skills Cards Grid -->
+      <div class="skills-card-grid" id="skills-grid">
+        <!-- AI/ML -->
+        <div class="skill-item glass-card" data-category="aiml">
+          <div class="skill-header">
+            <span class="skill-name">LLMs & Fine-Tuning</span>
+            <span class="skill-badge-domain">GenAI</span>
+          </div>
+          <p class="skill-desc">QWEN-3 fine-tuning, domain adaptation, Reranking, Prompt Engineering, LangChain, RAG.
+          </p>
+        </div>
+
+        <div class="skill-item glass-card" data-category="aiml">
+          <div class="skill-header">
+            <span class="skill-name">Deep Learning & NLP</span>
+            <span class="skill-badge-domain">Core AI</span>
+          </div>
+          <p class="skill-desc">Transformers, BERT, MPNET, MARQO-B, Spacy, Embeddings, Cross-Attention.</p>
+        </div>
+
+        <div class="skill-item glass-card" data-category="aiml">
+          <div class="skill-header">
+            <span class="skill-name">Computer Vision</span>
+            <span class="skill-badge-domain">Vision</span>
+          </div>
+          <p class="skill-desc">OpenCV, YOLO, CLIP, Medical eye scan processing, Object Detection, Anonymization, GANs.
+          </p>
+        </div>
+
+        <div class="skill-item glass-card" data-category="aiml">
+          <div class="skill-header">
+            <span class="skill-name">Recommendation Systems</span>
+            <span class="skill-badge-domain">Search & Rec</span>
+          </div>
+          <p class="skill-desc">Hybrid lexical-vector search, catalog matching, alternative product recommendation,
+            BM25.</p>
+        </div>
+
+        <div class="skill-item glass-card" data-category="aiml">
+          <div class="skill-header">
+            <span class="skill-name">Reinforcement Learning</span>
+            <span class="skill-badge-domain">Autonomous</span>
+          </div>
+          <p class="skill-desc">Markov Decision Process (MDP), SLAM, RL-based health recommendation models.</p>
+        </div>
+
+        <div class="skill-item glass-card" data-category="aiml">
+          <div class="skill-header">
+            <span class="skill-name">Time Series & Forecasting</span>
+            <span class="skill-badge-domain">Predictive</span>
+          </div>
+          <p class="skill-desc">Flight delay prediction, workforce demand forecasting, infrastructure anomaly log
+            mining.</p>
+        </div>
+
+        <!-- Frameworks -->
+        <div class="skill-item glass-card" data-category="frameworks">
+          <div class="skill-header">
+            <span class="skill-name">PyTorch & TensorFlow</span>
+            <span class="skill-badge-domain">Framework</span>
+          </div>
+          <p class="skill-desc">Custom model training, backpropagation, GPU acceleration, loss functions, distributed
+            training.</p>
+        </div>
+
+        <div class="skill-item glass-card" data-category="frameworks">
+          <div class="skill-header">
+            <span class="skill-name">LangChain & Hugging Face</span>
+            <span class="skill-badge-domain">GenAI Stack</span>
+          </div>
+          <p class="skill-desc">E-concierge pipelines, agent orchestration, tokenizer pipelines, model weights
+            distribution.</p>
+        </div>
+
+        <div class="skill-item glass-card" data-category="frameworks">
+          <div class="skill-header">
+            <span class="skill-name">Scikit-Learn, XGBoost, LightGBM</span>
+            <span class="skill-badge-domain">Tabular ML</span>
+          </div>
+          <p class="skill-desc">Ensemble gradient boosting, feature importance, cross-validation, hyperparameter tuning.
+          </p>
+        </div>
+
+        <div class="skill-item glass-card" data-category="frameworks">
+          <div class="skill-header">
+            <span class="skill-name">OpenCV, Spacy & YOLO</span>
+            <span class="skill-badge-domain">Perception</span>
+          </div>
+          <p class="skill-desc">Morphological transforms, custom OCR pipelines, named entity recognition, bounding box
+            detection.</p>
+        </div>
+
+        <!-- Cloud & Data -->
+        <div class="skill-item glass-card" data-category="cloud">
+          <div class="skill-header">
+            <span class="skill-name">Azure Databricks</span>
+            <span class="skill-badge-domain">Cloud Platform</span>
+          </div>
+          <p class="skill-desc">Cluster sizing, Delta Lake, Spark distributed matching pipelines, enterprise scaling.
+          </p>
+        </div>
+
+        <div class="skill-item glass-card" data-category="cloud">
+          <div class="skill-header">
+            <span class="skill-name">Docker & MLflow</span>
+            <span class="skill-badge-domain">MLOps</span>
+          </div>
+          <p class="skill-desc">Containerization, experiment tracking, model registry, reproducible deployment
+            pipelines.</p>
+        </div>
+
+        <div class="skill-item glass-card" data-category="cloud">
+          <div class="skill-header">
+            <span class="skill-name">Snowflake & Google BigQuery</span>
+            <span class="skill-badge-domain">Data Warehousing</span>
+          </div>
+          <p class="skill-desc">High-scale SQL querying, analytical pipelines, data transformation, partitioned schemas.
+          </p>
+        </div>
+
+        <div class="skill-item glass-card" data-category="cloud">
+          <div class="skill-header">
+            <span class="skill-name">Airflow & ClickHouse</span>
+            <span class="skill-badge-domain">Orchestration</span>
+          </div>
+          <p class="skill-desc">DAG scheduling, dependency tracking, real-time columnar analytics, low-latency
+            aggregations.</p>
+        </div>
+
+        <div class="skill-item glass-card" data-category="cloud">
+          <div class="skill-header">
+            <span class="skill-name">Vector & Graph Databases</span>
+            <span class="skill-badge-domain">Data Stores</span>
+          </div>
+          <p class="skill-desc">Approximate Nearest Neighbor (ANN) index tuning, knowledge graphs, semantic retrieval.
+          </p>
+        </div>
+
+        <!-- Languages & Backend -->
+        <div class="skill-item glass-card" data-category="languages">
+          <div class="skill-header">
+            <span class="skill-name">Python & SQL</span>
+            <span class="skill-badge-domain">Core Language</span>
+          </div>
+          <p class="skill-desc">Object-oriented architecture, asynchronous concurrency, complex joins, CTEs, window
+            functions.</p>
+        </div>
+
+        <div class="skill-item glass-card" data-category="languages">
+          <div class="skill-header">
+            <span class="skill-name">Django & Flask</span>
+            <span class="skill-badge-domain">Backend APIs</span>
+          </div>
+          <p class="skill-desc">Microservice architecture, REST endpoints, JWT authentication, model serving gateways.
+          </p>
+        </div>
+
+        <div class="skill-item glass-card" data-category="languages">
+          <div class="skill-header">
+            <span class="skill-name">Vue.js & Web Apps</span>
+            <span class="skill-badge-domain">Frontend</span>
+          </div>
+          <p class="skill-desc">Single-page applications, interactive data dashboards, reactive components.</p>
+        </div>
+
+        <div class="skill-item glass-card" data-category="languages">
+          <div class="skill-header">
+            <span class="skill-name">Shell Scripting, NoSQL & Git</span>
+            <span class="skill-badge-domain">DevOps Tools</span>
+          </div>
+          <p class="skill-desc">Bash automation, document stores, branch management, CI/CD integration.</p>
+        </div>
+
+        <!-- Visualization -->
+        <div class="skill-item glass-card" data-category="viz">
+          <div class="skill-header">
+            <span class="skill-name">Tableau & Power BI</span>
+            <span class="skill-badge-domain">BI Dashboards</span>
+          </div>
+          <p class="skill-desc">Executive KPI dashboards, drill-down reporting, stakeholder intelligence visualizations.
+          </p>
+        </div>
+
+        <div class="skill-item glass-card" data-category="viz">
+          <div class="skill-header">
+            <span class="skill-name">Plotly, Seaborn & Matplotlib</span>
+            <span class="skill-badge-domain">Data Science</span>
+          </div>
+          <p class="skill-desc">Interactive statistical visualizations, model loss curves, confusion matrices,
+            distribution analysis.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education, Publications & Honors -->
+  <section class="section-padding bg-darker" id="education">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-kicker">Academic Foundations & Honors</span>
+        <h2 class="section-title">Education, Research & Accolades</h2>
+        <p class="section-desc">
+          Rigorous academic training from Asia's top university complemented by published research and organizational
+          recognition.
+        </p>
+      </div>
+
+      <div class="edu-grid">
+        <!-- Education Card -->
+        <div class="edu-card glass-card">
+          <div class="edu-card-icon cyan-glow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+              <path d="M6 12v5c3 3 9 3 12 0v-5" />
+            </svg>
+          </div>
+          <div class="edu-card-body">
+            <span class="edu-year">Class of 2020</span>
+            <h3 class="edu-degree">Master of Technology in Intelligent Systems</h3>
+            <h4 class="edu-school">National University of Singapore (NUS)</h4>
+            <p class="edu-text">
+              Specialized in artificial intelligence, cognitive reasoning, machine learning platforms, and perception
+              systems.
+            </p>
+            <div class="notable-projects">
+              <span class="notable-title">Notable Master's Capstones:</span>
+              <ul class="notable-list">
+                <li><strong>Conversational Chatbot:</strong> Integrated Dialogflow + CLIPS rule-based expert engine +
+                  OptaPlanner constraint satisfaction.</li>
+                <li><strong>Autonomous Vehicles:</strong> Multi-agent reinforcement learning via Markov Decision
+                  Processes (MDP) combined with SLAM.</li>
+                <li><strong>UAV Ground Object Detection:</strong> Unmanned aerial vehicle computer vision with
+                  multi-sensor fusion.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <!-- Publications & Awards Card -->
+        <div class="edu-card glass-card">
+          <div class="edu-card-icon violet-glow">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="8" r="7" />
+              <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88" />
+            </svg>
+          </div>
+          <div class="edu-card-body">
+            <span class="edu-year">Peer-Reviewed & Industry</span>
+            <h3 class="edu-degree">Awards & Research Publication</h3>
+
+            <div class="award-item">
+              <div class="award-tag">IEEE Conference Publication</div>
+              <h4 class="award-title">"A Novel Approach: Airline Delay Prediction using Machine Learning"</h4>
+              <p class="award-desc">
+                Published research presenting high-accuracy ensemble ML for predicting commercial airline delay
+                cascades.
+              </p>
+            </div>
+
+            <div class="award-item">
+              <div class="award-tag">Organizational Excellence</div>
+              <h4 class="award-title">Awarded Best Team in Chennai</h4>
+              <p class="award-desc">Tata Consultancy Services Ltd. (TCS) — recognized for cutting-edge delivery and R&I
+                contributions.</p>
+            </div>
+
+            <div class="award-item">
+              <div class="award-tag">Undergraduate Distinction</div>
+              <h4 class="award-title">Awarded Best Performer of the Year (Twice)</h4>
+              <p class="award-desc">Recognized twice for academic and project leadership during Bachelor of Engineering
+                degree.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Global Presence & Dual Timezone Section -->
+  <section class="section-padding" id="presence">
+    <div class="container">
+      <div class="presence-box glass-card">
+        <div class="presence-info">
+          <span class="section-kicker">Global Track Record</span>
+          <h2 class="presence-title">Cross-Border AI Engineering & Distributed Leadership</h2>
+          <p class="presence-desc">
+            Having spearheaded teams and delivered mission-critical AI systems across both Singapore and India, Gautham
+            brings proven expertise operating across multicultural enterprise environments and fast-paced agile product
+            teams.
+          </p>
+          <div class="presence-highlights">
+            <div class="presence-item">
+              <span class="flag-icon">🇸🇬</span>
+              <div>
+                <strong>Singapore Experience:</strong> GIC Singapore, UCARE.AI, NTT Data / DBS Bank, National University
+                of Singapore.
+              </div>
+            </div>
+            <div class="presence-item">
+              <span class="flag-icon">🇮🇳</span>
+              <div>
+                <strong>India Experience:</strong> Staples India (Chennai), Tata Consultancy Services Ltd.
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Live Synchronized Regional Clocks -->
+        <div class="timezone-clocks-card glass-inner">
+          <h3 class="clocks-header">Synchronized Regional Clocks</h3>
+          <div class="clocks-row">
+            <!-- Canada Clock -->
+            <div class="clock-box">
+              <div class="clock-flag">🇨🇦 Canada (Toronto)</div>
+              <div class="clock-time" id="clock-canada">--:--:--</div>
+              <div class="clock-zone" id="clock-canada-zone">EDT (UTC -04:00)</div>
+            </div>
+            <!-- Singapore Clock -->
+            <div class="clock-box">
+              <div class="clock-flag">🇸🇬 Singapore</div>
+              <div class="clock-time" id="clock-singapore">--:--:--</div>
+              <div class="clock-zone">SGT (UTC +08:00)</div>
+            </div>
+            <!-- India Clock -->
+            <div class="clock-box">
+              <div class="clock-flag">🇮🇳 India</div>
+              <div class="clock-time" id="clock-india">--:--:--</div>
+              <div class="clock-zone">IST (UTC +05:30)</div>
+            </div>
+          </div>
+          <div class="clock-sync-status">
+            <span class="sync-dot"></span>
+            <span>Real-time local synchronization active</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="section-padding bg-darker" id="contact">
+    <div class="container">
+      <div class="section-header text-center">
+        <span class="section-kicker">Initiate Dialogue</span>
+        <h2 class="section-title">Let's Discuss Senior AI Leadership & Solutions</h2>
+        <p class="section-desc">
+          Open to discussions regarding Senior Lead AI Engineer, Principal AI Architect, or MLOps Leadership positions,
+          consulting, or strategic advisory.
+        </p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Details Column -->
+        <div class="contact-info-col">
+          <div class="contact-card glass-card">
+            <h3 class="contact-card-title">Direct Communication Channels</h3>
+
+            <div class="contact-channel-item">
+              <div class="channel-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                  <polyline points="22,6 12,13 2,6" />
+                </svg>
+              </div>
+              <div class="channel-content">
+                <span class="channel-label">Email Address</span>
+                <a href="mailto:connect.gautham@live.com" class="channel-value link-cyan">connect.gautham@live.com</a>
+              </div>
+              <button class="btn-copy-val" data-copy="connect.gautham@live.com" title="Copy email address"
+                aria-label="Copy email">
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+                </svg>
+              </button>
+            </div>
+
+            <div class="contact-channel-item">
+              <div class="channel-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                  <rect x="2" y="9" width="4" height="12" />
+                  <circle cx="4" cy="4" r="2" />
+                </svg>
+              </div>
+              <div class="channel-content">
+                <span class="channel-label">LinkedIn Profile</span>
+                <a href="https://linkedin.com/in/gautham-balasubramanian" target="_blank" rel="noopener noreferrer"
+                  class="channel-value link-cyan">linkedin.com/in/gautham-balasubramanian</a>
+              </div>
+            </div>
+
+            <div class="contact-channel-item">
+              <div class="channel-icon-box">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path
+                    d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z" />
+                </svg>
+              </div>
+              <div class="channel-content">
+                <span class="channel-label">Direct Phone Numbers</span>
+                <div class="phone-numbers">
+                  <div class="phone-row">
+                    <span>🇨🇦</span>
+                    <a href="tel:+16476776005" class="phone-link">+1 647 677 6005</a>
+                    <button class="btn-copy-val btn-copy-mini" data-copy="+1 647 677 6005" title="Copy Canadian phone number"
+                      aria-label="Copy Canadian phone number">
+                      <svg class="icon-tiny" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="phone-row">
+                    <span>🇸🇬</span>
+                    <a href="tel:+6597713029" class="phone-link">+65 9771 3029</a>
+                    <button class="btn-copy-val btn-copy-mini" data-copy="+65 9771 3029" title="Copy Singapore phone number"
+                      aria-label="Copy Singapore phone number">
+                      <svg class="icon-tiny" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="phone-row">
+                    <span>🇮🇳</span>
+                    <a href="tel:+917418112176" class="phone-link">+91 7418112176</a>
+                    <button class="btn-copy-val btn-copy-mini" data-copy="+91 7418112176" title="Copy India phone number"
+                      aria-label="Copy India phone number">
+                      <svg class="icon-tiny" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <rect x="9" y="9" width="13" height="13" rx="2" ry="2" />
+                        <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Download CV Block -->
+            <div class="cv-download-card glass-inner">
+              <div class="cv-download-info">
+                <div class="cv-title">Gautham Balasubramanian CV</div>
+                <div class="cv-meta">PDF Format &bull; 9+ Years AI Experience &bull; NUS MTech</div>
+              </div>
+              <div class="cv-btn-row">
+                <a href="/Gautham_CV.pdf" download="Gautham_Balasubramanian_CV.pdf" class="btn btn-primary btn-sm">
+                  <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+                    <polyline points="7 10 12 15 17 10" />
+                    <line x1="12" y1="15" x2="12" y2="3" />
+                  </svg>
+                  <span>Download PDF</span>
+                </a>
+                <button type="button" class="btn btn-outline btn-sm" id="btn-quick-preview-cv">
+                  <span>In-Browser View</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Contact Form Column -->
+        <div class="contact-form-col">
+          <div class="contact-form-card glass-card">
+            <h3 class="form-title">Send a Direct Inquiry</h3>
+            <p class="form-subtitle">Messages are routed directly to Gautham's inbox.</p>
+
+            <form id="contact-form" class="contact-form">
+              <div class="form-row">
+                <div class="form-field">
+                  <label for="form-name" class="field-label">Full Name *</label>
+                  <input type="text" id="form-name" class="form-input" placeholder="e.g. Dr. Alex Mercer" required />
+                </div>
+                <div class="form-field">
+                  <label for="form-email" class="field-label">Email Address *</label>
+                  <input type="email" id="form-email" class="form-input" placeholder="e.g. alex@enterprise.com"
+                    required />
+                </div>
+              </div>
+
+              <div class="form-field">
+                <label for="form-org" class="field-label">Organization / Company</label>
+                <input type="text" id="form-org" class="form-input"
+                  placeholder="e.g. Tech Ventures / Global Enterprise" />
+              </div>
+
+              <div class="form-field">
+                <label for="form-topic" class="field-label">Topic of Interest</label>
+                <select id="form-topic" class="form-select">
+                  <option value="Senior AI Leadership">Senior AI Leadership / Principal Role</option>
+                  <option value="Product Matching & LLM Advisory">Enterprise LLMs & Matching Architecture</option>
+                  <option value="Healthcare & Computer Vision">Healthcare AI & Medical Vision</option>
+                  <option value="General Inquiries">General Networking / Advisory</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label for="form-message" class="field-label">Message Details *</label>
+                <textarea id="form-message" rows="4" class="form-textarea"
+                  placeholder="Provide context regarding the project scope, role, or strategic objective..."
+                  required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-full" id="btn-submit-message">
+                <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="22" y1="2" x2="11" y2="13" />
+                  <polygon points="22 2 15 22 11 13 2 9 22 2" />
+                </svg>
+                <span>Dispatch Message</span>
+              </button>
+
+              <div class="form-feedback hidden" id="form-feedback-msg" role="alert"></div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="brand-monogram">GB</div>
+        <div class="footer-copy">
+          <p class="footer-name">Gautham Balasubramanian</p>
+          <p class="footer-sub">Senior Lead AI Engineer &bull; Singapore &bull; India</p>
+        </div>
+      </div>
+
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#flagship">Flagship Systems</a>
+        <a href="#experience">Career Journey</a>
+        <a href="#skills">Tech Matrix</a>
+        <a href="#education">Credentials</a>
+        <a href="/Gautham_CV.pdf" download>Download CV</a>
+      </div>
+
+      <div class="footer-meta">
+        <p class="meta-text">&copy; 2026 Gautham Balasubramanian. Engineered for Vercel & Production Scale.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Resume PDF Preview Modal -->
+  <div class="modal-backdrop" id="resume-modal" aria-hidden="true" role="dialog" aria-labelledby="modal-cv-title">
+    <div class="modal-dialog glass-card">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <svg class="icon-cyan" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+            <polyline points="14 2 14 8 20 8" />
+          </svg>
+          <h3 class="modal-title" id="modal-cv-title">Gautham Balasubramanian &mdash; Curriculum Vitae</h3>
+        </div>
+        <div class="modal-header-actions">
+          <a href="/Gautham_CV.pdf" download="Gautham_Balasubramanian_CV.pdf" class="btn btn-outline btn-sm">
+            <svg class="icon-sm" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4" />
+              <polyline points="7 10 12 15 17 10" />
+              <line x1="12" y1="15" x2="12" y2="3" />
+            </svg>
+            <span>Download</span>
+          </a>
+          <button type="button" class="modal-close-btn" id="btn-close-modal" aria-label="Close CV preview modal">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <line x1="18" y1="6" x2="6" y2="18" />
+              <line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="modal-body">
+        <object data="/Gautham_CV.pdf" type="application/pdf" class="pdf-viewer-frame">
+          <iframe src="/Gautham_CV.pdf" class="pdf-viewer-frame" title="Resume PDF View">
+            <p class="pdf-fallback">Your browser does not support inline PDF viewing. Please <a href="/Gautham_CV.pdf"
+                download class="link-cyan">click here to download the PDF resume directly</a>.</p>
+          </iframe>
+        </object>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification Container -->
+  <div id="toast-container" class="toast-container" aria-live="polite"></div>
+
+  <!-- JavaScript Entry Point -->
+  <script type="module" src="./src/main.js"></script>
+</body>
+
+</html>
